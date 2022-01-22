@@ -2,5 +2,4 @@
 ## This script counts the number of times each word appears in a document.
 
 ### Continuous Integration Status
-[![Python package](https://github.com/EC530/word-analyzer-ci-dpe22/actions/workflows/python-package.yml/badge.svg)](https://github.com/EC530/word-analyzer-ci-dpe22/actions/workflows/python-package.yml)
-
+[![Python test](https://github.com/EC530/word-analyzer-ci-dpe22/actions/workflows/python-test.yml/badge.svg)](https://github.com/EC530/word-analyzer-ci-dpe22/actions/workflows/python-test.yml)
