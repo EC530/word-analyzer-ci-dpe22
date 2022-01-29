@@ -4,3 +4,7 @@ matplotlib >= 3.0
 flake8
 mypy
 pytest >= 4.0
+
+nltk
+pandas
+seaborn
