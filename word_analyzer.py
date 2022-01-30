@@ -1,5 +1,6 @@
 # sources: https://www.absentdata.com/python-graphs/python-word-frequency/
 # original code modified by dpe22, comments added by dpe22
+# should return exception if input file is empty or has fewer than 30 unique words
 
 import nltk
 from nltk.corpus import stopwords
