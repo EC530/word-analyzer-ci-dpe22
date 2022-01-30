@@ -5,6 +5,10 @@
     - outputs a histogram of the top 30 words by frequency
     - requires text file input from the same directory
     - removes NLTK english stop words from the count
+    
+### System Requirements
+    - Python 3.6, 3.7, 3.8, 3.9, 3.10
+    - Ubuntu latest release
 
 ### Sample Output (US Constitution)
 ![image](https://user-images.githubusercontent.com/74585697/151681831-97b8bc03-1d37-447c-bbd8-87a8e7919f63.png)
