@@ -1,10 +1,11 @@
 # word-analyzer-ci-dpe22  [![Python test](https://github.com/EC530/word-analyzer-ci-dpe22/actions/workflows/python-test.yml/badge.svg)](https://github.com/EC530/word-analyzer-ci-dpe22/actions/workflows/python-test.yml)
 
-### This script counts the number of times each word appears in a text file.
-    - returns a dataframe containing words and frequencies
-    - outputs a histogram of the top 30 words by frequency
-    - requires text file input specified from a text file in the same directory
-    - removes NLTK english stop words from the count
+### Purpose
+    - This script counts the number of times each word appears in a text file.
+    - The word_analyzer function returns a dataframe containing words and frequencies
+    - The word_analyzer function outputs a histogram of the top 30 words by frequency
+    - This script requires a text file input specified by the user, which must be located in the same directory
+    - This script removes NLTK english stop words from the frequency count
     
 ### System Requirements
     - Python 3.6, 3.7, 3.8, 3.9, 3.10
