@@ -22,7 +22,7 @@ def word_analyzer(document):
 
     filesize = os.path.getsize(document)
     if filesize == 0: 
-        raise Exception("The file is empty, please try again with another text file.")
+        raise Exception("The file is empty or missing, please try again with another text file.")
 
     # open the document and tokenize words using nltk
     with open(document) as f:
