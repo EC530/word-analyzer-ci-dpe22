@@ -42,6 +42,10 @@ def word_analyzer(document):
     lemmatizer = WordNetLemmatizer()
     new_tokens = [lemmatizer.lemmatize(t) for t in new_tokens]
 
+    # check that there are 30 unique words
+    if (new_tokens.len() < 30):
+        raise Exception("The file does not contain enough unique words. Please ensure there are at least 30 unique words.")
+
     # create the word_freq data frame (essentially a spreadsheet of words sorted by frequency)
     counted = Counter(new_tokens)
     word_freq = pd.DataFrame(counted.items(),columns=['word','frequency']).sort_values(by='frequency',ascending=False)
