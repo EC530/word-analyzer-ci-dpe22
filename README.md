@@ -8,7 +8,7 @@
     - This script removes NLTK english stop words from the frequency count
     
 ### System Requirements
-    - Python 3.6, 3.7, 3.8, 3.9, 3.10
+    - Python 3.7, 3.8, 3.9, 3.10
     - Ubuntu latest release
 
 ### Sample Output (US Constitution)
