@@ -19,7 +19,9 @@ nltk.download('wordnet')
 nltk.download('omw-1.4')
 
 def word_analyzer(document):
-
+    if not document.lower().endswith('.txt'):
+        raise Exception("The file extension is incorrect. Please speficy a text file.")
+        
     filesize = os.path.getsize(document)
     if filesize == 0: 
         raise Exception("The file is empty or missing, please try again with another text file.")
