@@ -1,5 +1,6 @@
 # sources: https://www.absentdata.com/python-graphs/python-word-frequency/
 # original code modified by dpe22, comments added by dpe22
+# should return exception if input file is empty or has fewer than 30 unique words
 
 import nltk
 from nltk.corpus import stopwords
@@ -41,6 +42,10 @@ def word_analyzer(document):
     # lemmatize (group together the inflected forms of a word so they can be counted as a single item, identified by the word's lemma or dictionary form)
     lemmatizer = WordNetLemmatizer()
     new_tokens = [lemmatizer.lemmatize(t) for t in new_tokens]
+
+    # check that there are 30 unique words
+    if (new_tokens.len() < 30):
+        raise Exception("The file does not contain enough unique words. Please ensure there are at least 30 unique words.")
 
     # create the word_freq data frame (essentially a spreadsheet of words sorted by frequency)
     counted = Counter(new_tokens)
