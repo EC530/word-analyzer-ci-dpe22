@@ -1,4 +1,4 @@
-# word-analyzer-ci-dpe22 |                      CI Status [![Python test](https://github.com/EC530/word-analyzer-ci-dpe22/actions/workflows/python-test.yml/badge.svg)](https://github.com/EC530/word-analyzer-ci-dpe22/actions/workflows/python-test.yml)
+# word-analyzer-ci-dpe22 | [![Python test](https://github.com/EC530/word-analyzer-ci-dpe22/actions/workflows/python-test.yml/badge.svg)](https://github.com/EC530/word-analyzer-ci-dpe22/actions/workflows/python-test.yml)
 
 ### This script counts the number of times each word appears in a text file.
     - returns a dataframe containing words and frequencies
